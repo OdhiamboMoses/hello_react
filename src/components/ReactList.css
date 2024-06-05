@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1%;
+    color: orange;
+}
+
+input {
+    height: 40px;
+    width: 260px;
+    margin-top: 1%;
+    margin-left: 1%;
+
+}
+button {
+    padding: 11px;
+    background-color: green;
+    color: white;
+    border: 2px solid orange;
+}
+button:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.rep-list {
+    margin-left: 2%;
+}
+.rep-list>ul>li{
+    list-style-type: style circle;
+    margin-left: 3%;
+}
