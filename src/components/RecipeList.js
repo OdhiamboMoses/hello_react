@@ -1,21 +1,13 @@
 import React, {useState, useEffect} from "react";
 import './ReactList.css';
+import dataRecipes from './Data.js';
 
 const RecipeList = () => {
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
         const fetchedRecipes = async () => {
-        const fetchedRecipes = [
-            {
-                id: 1, name: 'Spaghetti Bolognese', ingredients: ['Spaghetti', 'Minced Meat', 'Tomato Sause']
-            },{
-                id: 2, name: 'Chicken Curry', ingredients: ['Chicken', 'Curry Paste', 'Coconut Milk']
-            },{
-                id: 3, name: 'Uji Power', ingredients:['Wheat Flour', 'Water', 'Yarm']
-            }
-        ];
-        setRecipes(fetchedRecipes);
+        setRecipes(dataRecipes);
     };
     fetchedRecipes();
 },
